@@ -20,19 +20,24 @@
                 
                 <h2>Cadastrar contato:</h2>
                 <form action="" id="form-addContato">
-                    <label for="nome">Nome: </label>
-                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                    <div class="form-addContato-nome">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" placeholder="Seu nome completo" required>
+                    </div>
 
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="seuemail@example.com" required> 
-
-                    <label for="interesses">Interesses:</label>
-                    <textarea id="mensagem" name="mensagem" rows="2" placeholder="Digite seus interesses separado por virgula" required></textarea>
-                    <button type="submit">CADASTRAR</button> 
-
+                    <div class="form-addContato-telefone">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+                    <div class="form-addContato-email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="seuemail@example.com" required> 
+                    </div>
+                    <div class="form-addContato-interesses">
+                        <label for="interesses">Interesses:</label>
+                        <textarea id="mensagem" name="mensagem" rows="2" placeholder="Digite seus interesses separado por virgula" required></textarea>
+                        <button type="submit">CADASTRAR</button> 
+                    </div>
                     
                 </form>
             </section>

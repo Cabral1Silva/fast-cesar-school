@@ -37,6 +37,7 @@ body{
 h1{
     font-size: 1.5rem;
     margin-top: 5px;
+    padding: 3px;
 }
 
 
@@ -49,3 +50,62 @@ h1{
     text-align: center;
     
 }
+
+#contato{
+    max-width:1000px;
+    height: 100%;
+}
+
+h2{
+    margin-left: 20px;
+    
+}
+
+#contato{
+
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form-addContato{
+    width: 500px;
+    height: 100%;    
+    margin-left: 15px;
+    padding: 10px;
+    display:inline-block;         
+
+}
+
+#form-addContato label{
+    font-size: 1.5rem;
+}
+
+#form-addContato-nome, #form-addContato-telefone, #form-addContato-email, #form-addContato-interesses{
+
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+
+}
+input, textarea{
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+      width: 100%; /* Faz o input preencher a largura do contêiner */
+      box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
+  }
+
+  
+      
+    
