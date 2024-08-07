@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Agenda/css/style.css">
     <title>Agenda de contato</title>
 </head>
 <body>
@@ -11,9 +12,12 @@
         <div class="conteiner">
             <header id="logo">
                 <img src="/Agenda/img/agenda.png" alt="Logo agenda " heigth="150px" width="150px">
-                <h1>AGENDA DE CONTATO</h1>
+                <h1>AGENDA DE CONTATO</h1>     
+                <hr class="linha">            
             </header>
+                
             <section id="contato">
+                
                 <h2>Cadastrar contato:</h2>
                 <form action="" id="form-addContato">
                     <label for="nome">Nome: </label>
@@ -27,7 +31,9 @@
 
                     <label for="interesses">Interesses:</label>
                     <textarea id="mensagem" name="mensagem" rows="2" placeholder="Digite seus interesses separado por virgula" required></textarea>
-                    <button type="submit">CADASTRAR</button>
+                    <button type="submit">CADASTRAR</button> 
+
+                    
                 </form>
             </section>
             <section id="agenda">
@@ -53,7 +59,7 @@
                 </table>
 
             </section>
-            
+
 
         </div>
     </main>
