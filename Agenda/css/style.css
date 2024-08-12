@@ -14,12 +14,12 @@ body{
     
 }
 
-.conteiner{
+.conteiner, #agenda{
     display: flex;
     flex-direction: column;
     align-items: center;  
     width: 100%;
-    height: 50%; 
+    height: 85%; 
     margin-top: 2%;
     background-color: #f7f7f7;
    
@@ -58,6 +58,7 @@ h1{
 
 h2{
     margin-left: 20px;
+   
     
 }
 
@@ -114,12 +115,67 @@ textarea,
     font-style: oblique;
     color: #f7f7f7;
     font-size: 1.3rem;
+    
   }
 
 input:focus, textarea:focus {
     border-color: #007bff; 
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
-  }
+  } 
+
+
+
+  /*teste*/
+
+  .table-container {
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as células */
+    background-color: #ffffff; /* Cor de fundo da tabela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+}
+
+th, td {
+  
+    padding: 12px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto */
+    
+}
+th{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+thead {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+}
+
+
+
+tbody tr:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse sobre a linha */
+}
+
+th {
+    font-weight: bold; /* Negrito para o texto do cabeçalho */
+}
+
+td {
+    font-size: 16px; /* Tamanho da fonte das células */
+}
+
+
+
+
+ 
+
 
   
       
